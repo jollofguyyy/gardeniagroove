@@ -81,31 +81,31 @@
     </header>
 
     <div class="container address">
-      <form action="" method="post">
+      <form action="checkout.php" method="post">
         <div class="row">
           <div class="col">
             <h3 class="title">billing address</h3>
 
             <div class="inputBox">
               <span>full name</span>
-              <input type="text" placeholder="your name" />
+              <input type="text" name="name" placeholder="your name" />
             </div>
             <div class="inputBox">
               <span>email</span>
-              <input type="email" placeholder="example@example.com" />
+              <input type="email" name="email" placeholder="example@example.com" />
             </div>
             <div class="inputBox">
               <span>address</span>
-              <input type="text" placeholder="room - street" />
+              <input type="text" name="address" placeholder="room - street" />
             </div>
             <div class="inputBox">
               <span>city</span>
-              <input type="text" placeholder="Bell Garden" />
+              <input type="text" name="city" placeholder="Bell Garden" />
             </div>
             <div class="flex">
               <div class="inputBox">
                 <span>zip code</span>
-                <input type="text" placeholder="90201" />
+                <input type="text" name="zip" placeholder="90201" />
               </div>
             </div>
           </div>
@@ -124,31 +124,76 @@
             </div>
             <div class="inputBox">
               <span>name on card:</span>
-              <input type="text" placeholder="mr. john ylow" />
+              <input type="text"  name="cname" placeholder=" John Ylow" />
             </div>
             <div class="inputBox">
               <span>credit card number:</span>
-              <input type="number" placeholder="1111-2222-3333-4444" />
+              <input type="number" name="cardno" placeholder="1111-2222-3333-4444" />
             </div>
            
             <div class="flex">
                 <div class="inputBox">
                     <span>exp year:</span>
-                    <input type="number" placeholder="2027" />
+                    <input type="number" name="exp" placeholder="2027" />
                   </div>
                 <div class="inputBox">
                     <span>exp month:</span>
-                    <input type="text" placeholder="january" />
+                    <input type="text" name="month" placeholder="january" />
                   </div>
                 <div class="inputBox">
                     <span>cvv:</span>
-                    <input type="number" placeholder="999" />
+                    <input type="number" name="vvc" placeholder="999" />
                   </div>
             </div>
         </div>
 
-        <input type="submit" value="safe checkout" class="submit">
+        <input type="submit" value="Safe Checkout" class="submit">
       </form>
+      
+    <!-- Footer Links -->
+    <section class="links">
+      <div class="link">
+        <ul>
+          <li>Useful links
+            <ul>
+              <li><a href="#"> Terms & Conditions</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#"> About us</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>Flowers
+            <ul>
+              <li><a href="index.html">Next Day Flowers</a></li>
+              <li><a href="birthday.html">Birthday Flowers</a></li>
+              <li><a href="annivesary.html">Anniversary Flowers</a></li>
+              <li><a href="Sympathy.html">Get Well Soon</a></li>
+              <li><a href="Sympathy.html">Sympathy Flowers</a></li>
+              <li><a href="roses.html">Thank You</a></li>
+              <li><a href="bestseller.html">Best Selling Flowers</a></li>
+            </ul>
+          </li>
+        </ul>
+       
+        <ul>
+          <li>Contact</li>
+          Email Us:
+          <ul><li><span><a href="mailto:enquiries@lilyslane.co.us">enquiries@lilyslane.co.us</a></span></li></ul>
+
+        </ul>
+      </div>
+    </section>
+
+  
+    
+  </div>
+
+
     </div>
   </body>
 </html>

@@ -33,6 +33,7 @@ body{color: var(--text-color)}
     max-width: 1068px;
     margin: auto;
     width:100%;
+    border-bottom: 1px solid black;
 }
 
 section{
@@ -71,6 +72,21 @@ header{
     left:10rem;
 }
 
+.cart-indicator {
+    position:relative;
+    bottom: 20px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+  }
 .btn-buy a{
 color: white;
 }
@@ -114,6 +130,8 @@ text-align: center;
 }
 
 .cart-icon{
+    position:relative;
+    top:.5rem;
     font-size: 1.8rem;
     cursor:pointer;
 }
@@ -257,7 +275,7 @@ form button{
 
 .header2{
     position:fixed;
-    top:5rem;
+    top:6rem;
     padding:0;
     margin: 0;
     font-family: monospace;
@@ -303,10 +321,11 @@ font-size: 15px;
 
 
 .section-title{
-    font-size:1.5rem;
+    font-size:2rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1.5rem;
+    color:rgb(255, 79, 79) ;
 }
 
 .topart{
@@ -405,6 +424,7 @@ font-weight: 600;
     display: flex;
     justify-content:center;
     align-items: center;
+    
    }
    .links ul{
        list-style: none;
@@ -440,6 +460,7 @@ font-weight: 600;
        height: 150px;
        position: relative;
        bottom: -153px;
+       border-top: 1px solid black;
    
    }
    
@@ -1135,3 +1156,288 @@ width: 50px;
 height: 30px;
 }
 } 
+
+
+@media(max-width:450px) {
+    
+
+    
+
+    .nav-icons{
+        left:1rem;
+    }
+    .nav-dropdown{
+        left:.5rem;
+    }
+        
+        .form{
+            position: relative;
+            left: 0rem;
+        }
+        form input{
+        width:10rem;
+        height:2rem;
+        border-radius: 5px;
+        border: none;
+        }
+        
+        form button{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 4px;
+            border: .6px solid;
+        }
+        
+        .header a button{
+            width: 5rem;
+            height:2rem;
+            position: relative;
+            left:10rem;
+            background: transparent;
+            border-radius: 4px;
+        }
+    
+        
+    
+        
+    .topart{
+        left: 5rem;
+        top:7rem;
+    }
+    
+    .topbuut button{
+    top:1rem;
+    width: 6rem;
+    }
+    
+    
+    .info{
+        display:block;
+        width: 100%;
+       height: fit-content;
+    }
+    .info1{
+        width: 250px;
+        height: 400px;
+        position: relative;
+        left:6rem;
+    }
+    .info button{
+        position: relative;
+        top:2rem;
+        left: 6rem;
+    }
+    
+    
+    .links{
+        display: flex;
+        background: white;
+        width: 100%;
+        position: relative;
+        left: 1rem;
+        top: 153px;
+        justify-content: center;
+        border-bottom: 1px solid rgba(50, 48, 48, 0.596);
+    }
+    .link{ 
+     display: flex;
+     justify-content:center;
+     align-items: center;
+    }
+    .links ul{
+        list-style: none;
+        background:transparent;
+        font-weight: 500;
+    }
+    .links ul li{
+        display: flex;
+        position: relative;
+        font-size: 15px;
+        font-weight: 900;
+        }
+        .links ul a{
+            padding: 12px 0px;
+            font-size: 10px;
+            left: -6rem;
+            
+        }
+    footer{
+        height:fit-content;
+        top:10rem ;
+    }
+    
+    footer .social-media a{
+        width: 2rem;
+        font-size: 1.5rem;
+      }
+    
+      .social-media{
+        position: relative;
+        Top:2rem;
+        left: 10px;
+        gap:30px;
+      }
+      .footer p{
+      position: relative;
+      font-size: 10px;
+     top:2rem;
+      left:13rem;
+    }
+    .paylogo{
+        position: relative;
+        display: flex;
+        width:100px;
+        top:0;
+        left: 10rem;
+    }
+    
+    .paylogo img{
+    width: 50px;
+    height: 30px;
+    }
+    } 
+
+    @media(max-width:400px) {
+    
+
+    
+
+        .nav-icons{
+            left:1rem;
+        }
+        .nav-dropdown{
+            left:.5rem;
+        }
+            
+            .form{
+                position: relative;
+                left: 0rem;
+            }
+            form input{
+            width:10rem;
+            height:2rem;
+            border-radius: 5px;
+            border: none;
+            }
+            
+            form button{
+                width: 2rem;
+                height: 2rem;
+                border-radius: 4px;
+                border: .6px solid;
+            }
+            
+            .header a button{
+                width: 5rem;
+                height:2rem;
+                position: relative;
+                left:10rem;
+                background: transparent;
+                border-radius: 4px;
+            }
+        
+            
+        
+            
+        .topart{
+            left: 5rem;
+            top:7rem;
+        }
+        
+        .topbuut button{
+        top:1rem;
+        width: 6rem;
+        }
+        
+        
+        .info{
+            display:block;
+            width: 100%;
+           height: fit-content;
+        }
+        .info1{
+            width: 250px;
+            height: 400px;
+            position: relative;
+            left:6rem;
+        }
+        .info button{
+            position: relative;
+            top:2rem;
+            left: 6rem;
+        }
+        .info img{
+            position:absolute;
+            width:80%;
+            height:1.7rem;
+            bottom:105rem;
+            left:2rem
+        }
+        
+        .links{
+            display: flex;
+            background: white;
+            width: 100%;
+            position: relative;
+            left: 1rem;
+            top: 153px;
+            justify-content: center;
+            border-bottom: 1px solid rgba(50, 48, 48, 0.596);
+        }
+        .link{ 
+         display: flex;
+         justify-content:center;
+         align-items: center;
+        }
+        .links ul{
+            list-style: none;
+            background:transparent;
+            font-weight: 500;
+        }
+        .links ul li{
+            display: flex;
+            position: relative;
+            font-size: 15px;
+            font-weight: 900;
+            }
+            .links ul a{
+                padding: 12px 0px;
+                font-size: 10px;
+                left: -6rem;
+                
+            }
+        footer{
+            height:fit-content;
+            top:10rem ;
+        }
+        
+        footer .social-media a{
+            width: 2rem;
+            font-size: 1.5rem;
+          }
+        
+          .social-media{
+            position: relative;
+            Top:2rem;
+            left: 10px;
+            gap:30px;
+          }
+          .footer p{
+          position: relative;
+          font-size: 10px;
+         top:2rem;
+          left:13rem;
+        }
+        .paylogo{
+            position: relative;
+            display: flex;
+            width:100px;
+            top:0;
+            left: 10rem;
+        }
+        
+        .paylogo img{
+        width: 50px;
+        height: 30px;
+        }
+        } 
